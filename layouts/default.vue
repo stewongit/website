@@ -4,7 +4,7 @@
 
 
     <!-- ======= Header ======= -->
-    <b-container fluid class="btn-info px-0 px-sm-2">
+    <b-container fluid class="bg-info px-0 px-sm-2">
       <b-container>
         <navigation></navigation>
       </b-container>
