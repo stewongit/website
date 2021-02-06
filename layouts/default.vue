@@ -1,64 +1,36 @@
 <template>
-  <b-container>
-
-    <b-navbar toggleable="lg" type="dark" variant="info" class="mb-5">
-      <b-navbar-brand href="/">machineryApp</b-navbar-brand>
-
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-      <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
-
-        </b-navbar-nav>
-
-        <!-- Right aligned nav items -->
-        <b-navbar-nav class="ml-auto">
-          <b-nav-item to="/maschinensicherheit" active>
-            Maschinensicherheit
-          </b-nav-item>
-          <b-nav-item to="/ce-kennzeichnung" active>
-            CE-Kennzeichnung
-          </b-nav-item>
-
-          <b-nav-item href="#" disabled>Disabled</b-nav-item>
+  <div>
+    <!-- ======= Top Bar ======= -->
 
 
-          <b-nav-item-dropdown text="Lang" right>
-            <b-dropdown-item href="#">EN</b-dropdown-item>
-            <b-dropdown-item href="#">ES</b-dropdown-item>
-            <b-dropdown-item href="#">RU</b-dropdown-item>
-            <b-dropdown-item href="#">FA</b-dropdown-item>
-          </b-nav-item-dropdown>
+    <!-- ======= Header ======= -->
+    <b-container fluid class="btn-info px-0 px-sm-2">
+      <b-container>
+        <navigation></navigation>
+      </b-container>
+    </b-container>
 
-          <b-nav-item-dropdown right>
-            <!-- Using 'button-content' slot -->
-            <template #button-content>
-              <em>User</em>
-            </template>
-            <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
-          </b-nav-item-dropdown>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
+      <!-- ======= Main ======= -->
+      <b-container>
+        <Nuxt />
+      </b-container>
 
+  </div>
 
-    <Nuxt />
-
-  </b-container>
 </template>
+
+<script>
+import navigation from "~/components/header/navigation";
+
+export default {
+  components: [
+    navigation,
+  ]
+}
+</script>
 
 <style>
 html {
-  font-family:
-    'Roboto',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -109,4 +81,5 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
 </style>

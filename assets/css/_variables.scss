@@ -1,7 +1,25 @@
 // Typography
-$font-family-sans-serif:      "Roboto", sans-serif;
+$font-family-sans-serif:      "Nunito", "Roboto", sans-serif;
+$body-color: #333333;
+$enable-responsive-font-sizes: true;
 
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-sm:                $font-size-base * .875 !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 1.75 !default;
+$h3-font-size:                $font-size-base * 1.5 !default;
+$h4-font-size:                $font-size-base * 1.25 !default;
+$h5-font-size:                $font-size-base * 1.15 !default;
+$h6-font-size:                $font-size-base !default;
+
+$headings-color: #332e38;
+$headings-font-weight: 700;
 $headings-margin-bottom: 1rem;
+
+// Navigation
+$navbar-nav-link-padding-x: 1rem !default;
 
 
 // All of your custom SCSS variables go first
@@ -13,7 +31,7 @@ $dark:          #000000 ;
 
 // Spacing
 .spacer {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
 }
 
 //then bootstrap & bootstrap-vue should be added after
