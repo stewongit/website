@@ -8,7 +8,7 @@
           Aber auch Betreiber von Maschinen und Anlagen sollten aktuelle Richtlinien, Normen und Gesetze im Bereich der Maschinensicherheit stets im Auge haben, sei es für neue Maschinen, wie für gebrauchte.
         </p>
 
-        <h2 class="spacer">Gesetzliche Grundlagen der Maschinensicherheit</h2>
+        <h3 class="spacer">Gesetzliche Grundlagen der Maschinensicherheit</h3>
         <p>
           Bereits in der ersten Fassung der Maschinenrichtlinie von 1985, enthielt sie das „neue Konzept”, auch als „new approach to technical harmonization and standards”
           oder Harmonisierungskonzept bekannt, zur Vereinheitlichung von Rechtsvorschriften in der EU. Sie hat damit das Produktrecht in Europa revolutioniert und einheitliche Standards
@@ -32,16 +32,16 @@
           <u>Hersteller</u> hingegen stehen einer anderen Rechtslage gegenüber. Sie konzentrieren sich, neben anderen gültigen Normen, im Schwerpunkt auf die Maschinenrichtlinie 2006/42/EG.
         </p>
 
-        <h2 class="spacer">Die Maschinenrichtlinie 2006/42/EG für Hersteller</h2>
+        <h3 class="spacer">Die Maschinenrichtlinie 2006/42/EG für Hersteller</h3>
         <p>
           Innerhalb der EU müssen alle technischen Erzeugnisse der Maschinenrichtlinie 2006/42/EG genügen. Verantwortlich hierfür ist der Hersteller sowie der Inverkehrbringer der Maschinen oder Anlagen.
           Die Vorschriften gelten dabei nicht nur für vollständige Maschinen, sondern auch für unvollständige Maschinen.
           Wichtiger Aspekt bei der Herstellung von sicheren Maschinen und Anlagen ist dabei die Risikobeurteilung (auch Gefahrenanalyse).
         </p>
 
-        <h2 class="spacer">
+        <h3 class="spacer">
           Maschinensicherheit für Hersteller und Betreiber
-        </h2>
+        </h3>
         <p>
           Zentraler Aspekt der Maschinensicherheit in Europa ist, dass sämtliche im Europäischen Wirtschaftsraum bereitgestellte Maschinen die Kriterien der Maschinensicherheit zu erfüllen haben.
           Der Begriff der Bereitstellung beschreibt dabei Maschinen, die in Europa hergestellt oder auch wesentlich umgebaut (verändert) werden, wie auch Importe nach Europa, die anschließend vor Ort betrieben werden.
@@ -55,6 +55,55 @@
         </p>      </div>
     </div>
 
+    <hr>
+
+    <div class="row">
+      <div class="col-12">
+        <h2 class="spacer">Risikoanalyse</h2>
+        <p>
+          Die Risikoanalyse zählt zu den Methoden des Risikomanagements und hat das Ziel potentielle negative Ereignisse frühzeitig zu erkennen und durch Vorkehrungsmaßnahmen zu vermeiden oder
+          zu reduzieren. Die Risikoanalyse umfasst die Identifikation und Bewertung von Gefährdungen, sie gibt dadurch Aufschluss über die vorliegende Risikosituation und wird z.B.
+          eingesetzt, um die Risikowahrnehmung zu fördern.
+        </p>
+
+        <h4 class="spacer">Anwendungsgebiete für Risikoanalysen</h4>
+        <ul>
+          <li>als Basis für die Projektplanung oder Angebotslegung für den Sondermaschinenbau</li>
+          <li>zur Erhebung der Risikosituation von Bestandsmaschinen</li>
+          <li>zur Erhebung von Risiken in Verfahren und Arbeitsabläufen</li>
+          <li>zur Bewertung neuer Technologien hinsichtlich der Risiken</li>
+          <li>zum erkennen und bewerten von Produktrisiken; auch in Hinblick auf die Produkthaftung</li>
+        </ul>
+        <p>
+          Das Ziel der Riskoanalyse ist es üblicherweise eine möglichst vollständige Sicht auf die vorliegenden Risikosituation zu erlangen.
+          Im Prinzip handelt es sich um eine systematische Methode, um Risiken vollständiger bewerten zu können, umfangreiche Zusammenhänge
+          durchsichtig zu machen und Unsicherheiten oder Wissenslücken offensichtlich zu machen.
+        </p>
+        <p>
+          Die Ermittlung der Risiken kann in drei Teilschritte untergliedert werden:
+        </p>
+        <ul>
+          <li><b>Risikoidentifizierung</b> &rArr; welche Risiken existieren</li>
+          <li><b>Risikobewertung</b> &rArr; Eintrittswahrscheinlichkeit</li>
+          <li><b>Risikomanagement</b> &rArr; Ursachenidentifikation, Maßnahmenplanung</li>
+        </ul>
+        <p>
+          Für Maschinen definiert die EN ISO 12100 ein Verfahren zur Risikobeurteilung. Die Risikoanalyse ist hierbei der erste wesentliche Schritt des itterativen Verahrens
+          zur systematischen Ermittlung und Bewertung von Risiken.
+        </p>
+      </div>
+    </div>
+
+    <b-row class="text-center">
+      <b-col lg></b-col>
+      <b-col cols="12" lg="8">
+        <figure>
+          <b-img-lazy src="~/assets/Ablaufschema-Risikobeurteilung-fuer-Maschinen.png" fluid alt="Schematische Darstellung des iterativen Prozesses zur Risikominderung"></b-img-lazy>
+          <figcaption class="img-responsive center-block d-block mx-auto w-100 py-3 small text-black-50 text-center">Schematische Darstellung des iterativen Prozesses zur Risikominderung</figcaption>
+        </figure>
+      </b-col>
+      <b-col lg></b-col>
+    </b-row>
   </div>
 </template>
 
