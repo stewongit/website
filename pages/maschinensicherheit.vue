@@ -99,7 +99,7 @@
       <b-col cols="12" lg="8">
         <figure>
           <b-img-lazy src="~/assets/Ablaufschema-Risikobeurteilung-fuer-Maschinen.png" fluid alt="Schematische Darstellung des iterativen Prozesses zur Risikominderung"></b-img-lazy>
-          <figcaption class="img-responsive center-block d-block mx-auto w-100 py-3 small text-black-50 text-center">Schematische Darstellung des iterativen Prozesses zur Risikominderung</figcaption>
+          <figcaption class="img-responsive center-block d-block mx-auto w-100 py-3 small text-muted text-center">Schematische Darstellung des iterativen Prozesses zur Risikominderung</figcaption>
         </figure>
       </b-col>
       <b-col lg></b-col>
