@@ -15,7 +15,8 @@
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "node-sass": "^5.0.0",
-    "nuxt": "^2.13.0"
+    "nuxt": "^2.13.0",
+    "nuxt-matomo": "^1.2.4"
   },
   "devDependencies": {
     "fibers": "^5.0.0",

@@ -8,7 +8,7 @@
           Aber auch Betreiber von Maschinen und Anlagen sollten aktuelle Richtlinien, Normen und Gesetze im Bereich der Maschinensicherheit stets im Auge haben, sei es für neue Maschinen, wie für gebrauchte.
         </p>
 
-        <h3 class="spacer">Gesetzliche Grundlagen der Maschinensicherheit</h3>
+        <h2 class="spacer">Gesetzliche Grundlagen der Maschinensicherheit</h2>
         <p>
           Bereits in der ersten Fassung der Maschinenrichtlinie von 1985, enthielt sie das „neue Konzept”, auch als „new approach to technical harmonization and standards”
           oder Harmonisierungskonzept bekannt, zur Vereinheitlichung von Rechtsvorschriften in der EU. Sie hat damit das Produktrecht in Europa revolutioniert und einheitliche Standards
@@ -66,7 +66,7 @@
           eingesetzt, um die Risikowahrnehmung zu fördern.
         </p>
 
-        <h4 class="spacer">Anwendungsgebiete für Risikoanalysen</h4>
+        <p><b>Anwendungsgebiete für Risikoanalysen</b></p>
         <ul>
           <li>als Basis für die Projektplanung oder Angebotslegung für den Sondermaschinenbau</li>
           <li>zur Erhebung der Risikosituation von Bestandsmaschinen</li>
@@ -127,5 +127,11 @@ export default {
 </script>
 
 <style scoped>
+
+dd:before {
+  content: '\2022';
+  margin-left: 15px;
+  margin-right: 10px;
+}
 
 </style>

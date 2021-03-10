@@ -66,6 +66,11 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    // Doc: https://github.com/pimlie/nuxt-matomo
+    ['nuxt-matomo', {
+      matomoUrl: 'https://analytics.on.rocksol-it.com/',
+      siteId: 5
+    }],
   ],
   bootstrapVue: {
     bootstrapCSS: false,
