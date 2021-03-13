@@ -123,7 +123,7 @@
           Für technische Systemen kann dies beispielsweise über vorliegende Funktionsanforderungen erfolgen.
         </p>
         <p>
-          Das Ziel der Risikoidentifikation ist es, die Risikoquellen der gesamten Maschine oder Anlage für alle Lebensphasen (Transport, Montage, Betrieb, Wartung, Demontage und Entsorung)
+          Das Ziel der Risikoidentifikation ist es, die Risikoquellen der gesamten Maschine oder Anlage für alle Lebensphasen (Transport, Montage, Betrieb, Wartung, Demontage und Entsorgung)
           und Tätigkeiten im Zusammenhang mit der Maschine möglichst vollständig zu erfassen.
         </p>
 
@@ -131,7 +131,7 @@
         <p>
           Im Anschluss an die Risikoidentifikation erfolgt die Analyse der Ursachen der identifizierten Gefahrenereignisse und die Ermittlung deren Häufigkeiten.
 
-          Ziel der Ursachenanalyse ist es die Situation zu beschreiben die vorligen muss, damit das es überhaupt zum Eintretten des Schadensereignisses kommt.
+          Ziel der Ursachenanalyse ist es die Situation zu beschreiben die vorliegen muss, damit das es überhaupt zum Eintreten des Schadensereignisses kommt.
         </p>
       </b-col>
     </b-row>
