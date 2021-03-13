@@ -104,6 +104,37 @@
       </b-col>
       <b-col lg></b-col>
     </b-row>
+
+    <b-row>
+      <b-col>
+        <h3>Phasen der Risikoanalyse</h3>
+        Das Vorgehen zur Risikoanalyse gliedert sich in die Phasen:
+        </p>
+        <ol>
+          <li>Risikoidentifikation</li>
+          <li>Risikoursachenanalyse</li>
+          <li>Risikobewertung und Risikoquantifizierung</li>
+          <li>Risikomanagement</li>
+          <li>Risikoaggregation</li>
+        </ol>
+
+        <h4>1. Risikoidentifikation</h4>
+        <p>Im Rahmen der Risikoidentifikation wird eine Liste der vorliegenden Gefährdungen generiert. Hierbei empfiehlt es sich methodisch vorzugehen, um systematisch alle Gefährdungen zu ermitteln.
+          Für technische Systemen kann dies beispielsweise über vorliegende Funktionsanforderungen erfolgen.
+        </p>
+        <p>
+          Das Ziel der Risikoidentifikation ist es, die Risikoquellen der gesamten Maschine oder Anlage für alle Lebensphasen (Transport, Montage, Betrieb, Wartung, Demontage und Entsorung)
+          und Tätigkeiten im Zusammenhang mit der Maschine möglichst vollständig zu erfassen.
+        </p>
+
+        <h4>2. Risikoursachenanalyse</h4>
+        <p>
+          Im Anschluss an die Risikoidentifikation erfolgt die Analyse der Ursachen der identifizierten Gefahrenereignisse und die Ermittlung deren Häufigkeiten.
+
+          Ziel der Ursachenanalyse ist es die Situation zu beschreiben die vorligen muss, damit das es überhaupt zum Eintretten des Schadensereignisses kommt.
+        </p>
+      </b-col>
+    </b-row>
   </div>
 </template>
 
