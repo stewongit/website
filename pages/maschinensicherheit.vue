@@ -88,8 +88,8 @@
           <li><b>Risikomanagement</b> &rArr; Ursachenidentifikation, Maßnahmenplanung</li>
         </ul>
         <p>
-          Für Maschinen definiert die EN ISO 12100 ein Verfahren zur Risikobeurteilung. Die Risikoanalyse ist hierbei der erste wesentliche Schritt des itterativen Verahrens
-          zur systematischen Ermittlung und Bewertung von Risiken.
+          Für Maschinen definiert die Norm EN ISO 12100 zur Sicherheit von Maschinen ein Verfahren zur Risikobeurteilung. Die Risikoanalyse ist hierbei der erste
+          wesentliche Schritt des iterativen Verfahrens zur systematischen Ermittlung und Bewertung von Risiken.
         </p>
       </div>
     </div>
@@ -108,19 +108,20 @@
     <b-row>
       <b-col>
         <h3>Phasen der Risikoanalyse</h3>
-        Das Vorgehen zur Risikoanalyse gliedert sich in die Phasen:
+        Die Vorgehensweise zur Risikoanalyse gliedert sich in folgende Phasen.
         </p>
         <ol>
           <li>Risikoidentifikation</li>
           <li>Risikoursachenanalyse</li>
-          <li>Risikobewertung und Risikoquantifizierung</li>
-          <li>Risikomanagement</li>
-          <li>Risikoaggregation</li>
+          <li>Risikoeinschätzung</li>
+          <li>Risikobewältigung (Risikosteuerung)</li>
         </ol>
 
         <h4>1. Risikoidentifikation</h4>
-        <p>Im Rahmen der Risikoidentifikation wird eine Liste der vorliegenden Gefährdungen generiert. Hierbei empfiehlt es sich methodisch vorzugehen, um systematisch alle Gefährdungen zu ermitteln.
+        <p>Im ersten Schritt geht es darum festzustellen, was denn überhaupt passieren kann.
+          Dazu wird eine Liste der vorliegenden Gefährdungen generiert. Hierbei empfiehlt es sich methodisch vorzugehen, um systematisch alle Gefährdungen zu ermitteln.
           Für technische Systemen kann dies beispielsweise über vorliegende Funktionsanforderungen erfolgen.
+          Wichtig dabei ist es realistisch zu bleiben, es sollten nur Vorfälle erfasst werden die tatsächlich im Anwendungsbereich existieren.
         </p>
         <p>
           Das Ziel der Risikoidentifikation ist es, die Risikoquellen der gesamten Maschine oder Anlage für alle Lebensphasen (Transport, Montage, Betrieb, Wartung, Demontage und Entsorgung)
@@ -129,9 +130,102 @@
 
         <h4>2. Risikoursachenanalyse</h4>
         <p>
-          Im Anschluss an die Risikoidentifikation erfolgt die Analyse der Ursachen der identifizierten Gefahrenereignisse und die Ermittlung deren Häufigkeiten.
+          Ein Vorfall mit einem bestimmten Schaden kann in der Praxis mehrere Ursachen haben. Deshlab erfolgt im Anschluss an die Risikoidentifikation
+          die Ermittlung möglicher Ursachen für Gefährdungsereignisse und die Ermittlung deren Häufigkeiten.
 
-          Ziel der Ursachenanalyse ist es die Situation zu beschreiben die vorliegen muss, damit das es überhaupt zum Eintreten des Schadensereignisses kommt.
+          Die Ursachenanalyse hat zum Ziel die Situationen zu erfassen, die zum Eintreten eines Schadenereignisses führen können. In weiterer Folge werden diese Szenarien bewertet und
+          im Risikomanagement behandelt.
+        </p>
+
+        <h4>3. Risikoeinschätzung</h4>
+        <p>
+          Genau genommen handelt es sich bei der Risikoeinschätzung um eine quantitative Beschreibung des Risikos. Die Quantifizierung des mit einer bestimmten Gefährdungssituation
+          zusammenhängenden Risikos erfolgt durch die Betrachtung der Wahrscheinlichkeit des Eintretens dieses Ereignisses und dessen Schadensausmaß. Aspekte der
+          technischen und menschlichen Möglichkeiten zur Vermeidung oder Begrenzung des Schadens sollen dabei ebenso in Betracht gezogen werden.
+        </p>
+        <p>
+          Für die Bewertung des Risikos können unterschiedliche Beurteilungsmethoden eingesetzt werden. Wichtig dabei ist es eine Vergleichbarkeit der Einschätzungen zu gewährleisten,
+          um die Entscheidungsfindung im Risikomanagement zu unterstützen.
+        </p>
+        <p>
+          Je nach Produkttyp und Branche haben sich im Risikomanagement unterschiedliche Verfahren und Vorgehensweisen entwickelt.
+          Im Maschinenbau gelten – gemäß einer Liste der BAuA – u.a. die folgenden Methoden und Verfahren als zweckmäßig:
+        </p>
+        <ul>
+          <li>Gefährdungsbaumanalyse</li>
+          <li>Risikoeinschätzung mittels Risikograph nach DIN V 19250</li>
+          <li>Risikoeinschätzung mittels Risikograph nach DIN EN 954-1</li>
+          <li>Risikoeinschätzung mittels Risikograph nach DIN EN ISO 13849-1</li>
+          <li>Risikoeinschätzung nach DIN EN 62061</li>
+          <li>Risikoeinschätzung mittels Risikomatrix nach Nohl</li>
+          <li>Risikoeinschätzung nach MILSTD 882D 2000</li>
+          <li>Risikoeinschätzung mittels Risikozahlen nach Reudenbach</li>
+          <li>Risikoeinschätzung nach E DIN EN ISO 14798</li>
+          <li>Risikoeinschätzung nach RAPEX-Verfahren</li>
+          <li>Risikoeinschätzung mittels Nomogramm nach Raafat</li>
+          <li>Risikoeinschätzung mittels der Methode nach Kinney</li>
+          <li>FMEA (Failure Mode and Effects Analysis) = Fehlermöglichkeits- und Einfluss-Analyse</li>
+        </ul>
+        <p>
+          Welches Verfahren für welchen Maschinentyp anzuwenden ist, ist nicht vorgeschrieben.
+          Der Maschinenhersteller und seine Konstrukteure haben freie Auswahl unter den Methoden zur Risikoeinschätzung.
+          Zur grafischen Darstellung werden häufig die Risikomatrix oder der Risikograph angewendet.
+        </p>
+        <table style="height: 144px; width: 100%;">
+          <tbody>
+          <tr style="height: 26.4668px;">
+            <td style="height: 48px;" rowspan="2"><strong>Eintrittswahrscheinlichkeit des Schadens</strong></td>
+            <td colspan="4"><strong>Schadensausmaß</strong></td>
+          </tr>
+          <tr style="height: 24px;">
+            <td >katastrophal</td>
+            <td >schwerwiegend</td>
+            <td >mittelmäßig</td>
+            <td >geringfügig</td>
+          </tr>
+          <tr style="height: 24px;">
+            <td >sehr wahrscheinlich</td>
+            <td style="background-color: #e62044;"><strong>hoch</strong></td>
+            <td style="background-color: #e62044; "><strong>hoch</strong></td>
+            <td style="background-color: #e62044; "><strong>hoch</strong></td>
+            <td style="background-color: #e0e016; "><strong>mittel</strong></td>
+          </tr>
+          <tr style="height: 24px;">
+            <td >wahrscheinlich</td>
+            <td style="background-color: #e62044;"><strong>hoch</strong></td>
+            <td style="background-color: #e62044;"><strong>hoch</strong></td>
+            <td style="background-color: #e0e016; "><strong>mittel</strong></td>
+            <td style="background-color: #23de23; "><strong>gering</strong></td>
+          </tr>
+          <tr style="height: 24px;">
+            <td >unwahrscheinlich</td>
+            <td style="background-color: #e0e016;"><strong>mittel</strong></td>
+            <td style="background-color: #e0e016;"><strong>mittel</strong></td>
+            <td style="background-color: #23de23; "><strong>gering</strong></td>
+            <td >vernachlässigbar</td>
+          </tr>
+          <tr style="height: 24px;">
+            <td >entfernt vorstellbar</td>
+            <td style="background-color: #23de23;"><strong>gering</strong></td>
+            <td style="background-color: #23de23;"><strong>gering</strong></td>
+            <td >vernachlässigbar</td>
+            <td >vernachlässigbar</td>
+          </tr>
+          </tbody>
+        </table>
+        <p>
+          <small><i>Risikomatrix als grafische Übersicht zur Risikoeinschätzung</i></small>
+        </p>
+
+        <h4>4. Risikobewältigung (Risikosteuerung)</h4>
+        <p>
+          Sollte aus dem Schritt der Risikoeinschätzung hervorgehen, dass das mit einer Gefährdung zusammenhängende Risiko ein akzeptables Niveau übersteigt,
+          so sind Maßnahmen zur Risikovermeidung oder Risikominderung vorzusehen.
+        </p>
+        <p>
+          Im Maschinenbau können Maßnahmen zur Risikominderung konstruktiv, technisch oder durch Benutzerinformation gesetzt werden. Wichtig dabei ist es zu beachten,
+          dass durch die gesetzten Maßnahmen zur Risikominderung neue Gefährdungen entstehen können. Das Vorgehen zur Risikoanalyse und Risikobewertung ist daher ein
+          iterativer Prozess der so lange durchlaufen werden soll bis alle Gefährdungen ausreichend behandelt wurden.
         </p>
       </b-col>
     </b-row>
@@ -163,6 +257,11 @@ dd:before {
   content: '\2022';
   margin-left: 15px;
   margin-right: 10px;
+}
+
+table, th, td {
+  border: 1px solid #0d0707;
+  text-align: center;
 }
 
 </style>
