@@ -87,23 +87,9 @@
           <li><b>Risikobewertung</b> &rArr; Eintrittswahrscheinlichkeit</li>
           <li><b>Risikomanagement</b> &rArr; Ursachenidentifikation, Maßnahmenplanung</li>
         </ul>
-        <p>
-          Für Maschinen definiert die Norm EN ISO 12100 zur Sicherheit von Maschinen ein Verfahren zur Risikobeurteilung. Die Risikoanalyse ist hierbei der erste
-          wesentliche Schritt des iterativen Verfahrens zur systematischen Ermittlung und Bewertung von Risiken.
-        </p>
+
       </div>
     </div>
-
-    <b-row class="text-center">
-      <b-col lg></b-col>
-      <b-col cols="12" lg="8">
-        <figure>
-          <b-img-lazy src="~/assets/Ablaufschema-Risikobeurteilung-fuer-Maschinen.png" fluid alt="Schematische Darstellung des iterativen Prozesses zur Risikominderung"></b-img-lazy>
-          <figcaption class="img-responsive center-block d-block mx-auto w-100 py-3 small text-muted text-center">Schematische Darstellung des iterativen Prozesses zur Risikominderung</figcaption>
-        </figure>
-      </b-col>
-      <b-col lg></b-col>
-    </b-row>
 
     <b-row>
       <b-col>
@@ -226,6 +212,82 @@
           Im Maschinenbau können Maßnahmen zur Risikominderung konstruktiv, technisch oder durch Benutzerinformation gesetzt werden. Wichtig dabei ist es zu beachten,
           dass durch die gesetzten Maßnahmen zur Risikominderung neue Gefährdungen entstehen können. Das Vorgehen zur Risikoanalyse und Risikobewertung ist daher ein
           iterativer Prozess der so lange durchlaufen werden soll bis alle Gefährdungen ausreichend behandelt wurden.
+        </p>
+      </b-col>
+    </b-row>
+
+    <b-row>
+      <b-col>
+        <h2 class="spacer">Die Risikobeurteilung</h2>
+        <p>
+          Die Risikobeurteilung für Maschinen ist ein Verfahren um die Gefährdungen, die von einem Gerät / Maschine ausgehen können, zu identifizieren, einzuschätzen, bewerten
+          und durch ein Risikominderung soweit zu verringern, bis nur noch ein vertretbares Restrisiko bestehen bleibt. Gefahren, die nach dem Ausschöpfen aller Schutzmaßnahmen
+          letztlich nicht beseitigt werden können, müssen durch Benutzerinformation ausgewiesen werden. Dies kann z.B. durch einen Hinweis in der Betriebsanleitung erfolgen.
+        </p>
+        <p>
+          Die Maschinensicherheitsnorm DIN EN ISO 12100 "Sicherheit von Maschinen - Allgemeine Gestaltungsleitsätze - Risikobeurteilung und Risikominderung (ISO 12100:2010)" beschreibt ein
+          Verfahren zur Durchführung von Risikobeurteilungen für Maschinen. Im nachfolgenden Ablaufdiagramm ist die in der DIN EN ISO 12100 beschriebene Vogehensweise dargestellt.
+        </p>
+
+      </b-col>
+    </b-row>
+
+    <b-row class="text-center">
+      <b-col lg></b-col>
+      <b-col cols="12" lg="8">
+        <figure>
+          <b-img-lazy src="~/assets/Ablaufschema-Risikobeurteilung-fuer-Maschinen.png" fluid alt="Schematische Darstellung des iterativen Prozesses zur Risikominderung"></b-img-lazy>
+          <figcaption class="img-responsive center-block d-block mx-auto w-100 py-3 small text-muted text-center">Schematische Darstellung des iterativen Prozesses zur Risikominderung</figcaption>
+        </figure>
+      </b-col>
+      <b-col lg></b-col>
+    </b-row>
+
+    <b-row>
+      <b-col>
+        <p>
+          Für die Durchführung einer Risikobeurteilung sind die Schritte:
+        </p>
+        <ul>
+          <li>Bestimmung der Grenzen der Maschine oder Anlage</li>
+          <li>Identifizierung der Gefährdung</li>
+          <li>Risikoeinschätzung</li>
+          <li>Risikobewertung</li>
+          <li>Risikominderung</li>
+        </ul>
+        <p>
+          wiederholt zu durchlaufen, bis die Maschine oder Anlage als sicher eingestuft werden kann. Hintergrund dieses wiederholenden Durchlaufens aller Schritte ist die Überlegung, dass
+          durch die Planung von Schutzmaßnahmen zur Vermeidung von Gefährdungen potenziell neue Risiken geschaffen werden können und diese ebenso systematisch identifiziert und bewertet
+          werden müssen.
+        </p>
+        <p>
+          Sofern nach dem Ausschöpfen aller Schutzmaßnahmen noch Restrisiken verbleiben, muss der Benutzer darüber informiert werden, um organisatorische, persönliche oder Ausbildungsmaßnahmen
+          ergreifen  zu  können  und  so  das  Restrisiko  auf  ein  akzeptables Maß zu senken. (siehe: Risikominderung durch Benutzerinformation)
+        </p>
+        <p>
+          Das zu erreichende Ziel besteht in der größtmöglichen Risikominderung unter Berücksichtigung der Faktoren:
+        </p>
+        <ul>
+          <li>Sicherheit der Maschine in sämtlichen Phasen ihrer Lebensdauer</li>
+          <li>Fähigkeit der Maschine, ihre Funktion auszuführen</li>
+          <li>Benutzerfreundlichkeit der Maschine</li>
+          <li>Herstellungs- und Betriebskosten der Maschine</li>
+        </ul>
+        <p>
+          Für ein systematisches Vorgehen bei der Identifizierung von Gefährdungen eignen sich sowohl deduktive als auch induktive Verfahren.
+        </p>
+        <p>
+          Ein Beispiel für ein <b>deduktives</b> Verfahren wäre die Fehlerbaumanalyse (FTA - IEC 61025). Bei der von einem Top-Ereignis ausgehend alle Szenarien identifiziert werden, die damit in Verbindung stehen können.
+          Im Bereich des Maschinenbaus könnte beispielsweise eine Gefährdung wie "Quetschen von Fingern oder Gliedmaßen" angenommen werden, um im Anschluss alle Bereiche an der Maschine zu identifizieren,
+          an denen diese auftreten kann.
+        </p>
+        <p>
+          Ein <b>induktives</b> Vorgehen wäre zum Beispiel die Maschine gedanklich oder physisch abzuschreiten und dabei zu versuchen alle Gefahrenstellen und damit verbundenen Gefährdungen zu identifizieren.
+          Eine weitere Möglichkeit wäre es anhand der an der Maschine durchzuführenden Tätigkeiten (Aufgaben) die dabei auftretenden Gefährdungen zu identifizieren.
+        </p>
+        <p>
+          Die Maschinenrichtlinie oder EN ISO 12100 schreibt hier kein bestimmtes Verfahren vor. In vielen Fällen wird es sich anbieten mehrere Verfahren anzuwenden, um möglichst alle Gefährdungen zu
+          identifizieren und ein sicheres Produkt entwickeln zu können.
         </p>
       </b-col>
     </b-row>
