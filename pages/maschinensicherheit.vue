@@ -157,51 +157,54 @@
           Der Maschinenhersteller und seine Konstrukteure haben freie Auswahl unter den Methoden zur Risikoeinschätzung.
           Zur grafischen Darstellung werden häufig die Risikomatrix oder der Risikograph angewendet.
         </p>
-        <table style="height: 144px; width: 100%;">
-          <tbody>
-          <tr style="height: 26.4668px;">
-            <td style="height: 48px;" rowspan="2"><strong>Eintrittswahrscheinlichkeit des Schadens</strong></td>
-            <td colspan="4"><strong>Schadensausmaß</strong></td>
-          </tr>
-          <tr style="height: 24px;">
-            <td >katastrophal</td>
-            <td >schwerwiegend</td>
-            <td >mittelmäßig</td>
-            <td >geringfügig</td>
-          </tr>
-          <tr style="height: 24px;">
-            <td >sehr wahrscheinlich</td>
-            <td style="background-color: #e62044;"><strong>hoch</strong></td>
-            <td style="background-color: #e62044; "><strong>hoch</strong></td>
-            <td style="background-color: #e62044; "><strong>hoch</strong></td>
-            <td style="background-color: #e0e016; "><strong>mittel</strong></td>
-          </tr>
-          <tr style="height: 24px;">
-            <td >wahrscheinlich</td>
-            <td style="background-color: #e62044;"><strong>hoch</strong></td>
-            <td style="background-color: #e62044;"><strong>hoch</strong></td>
-            <td style="background-color: #e0e016; "><strong>mittel</strong></td>
-            <td style="background-color: #23de23; "><strong>gering</strong></td>
-          </tr>
-          <tr style="height: 24px;">
-            <td >unwahrscheinlich</td>
-            <td style="background-color: #e0e016;"><strong>mittel</strong></td>
-            <td style="background-color: #e0e016;"><strong>mittel</strong></td>
-            <td style="background-color: #23de23; "><strong>gering</strong></td>
-            <td >vernachlässigbar</td>
-          </tr>
-          <tr style="height: 24px;">
-            <td >entfernt vorstellbar</td>
-            <td style="background-color: #23de23;"><strong>gering</strong></td>
-            <td style="background-color: #23de23;"><strong>gering</strong></td>
-            <td >vernachlässigbar</td>
-            <td >vernachlässigbar</td>
-          </tr>
-          </tbody>
-        </table>
-        <p>
-          <small><i>Risikomatrix als grafische Übersicht zur Risikoeinschätzung</i></small>
-        </p>
+        <div class="table-responsive-lg">
+          <table class="table table-sm" style="font-size: .875rem">
+            <caption><i>Risikomatrix als grafische Übersicht zur Risikoeinschätzung</i></caption>
+            <thead>
+              <tr>
+                <td scope="col" rowspan="2"><strong>Eintrittswahrscheinlichkeit des Schadens</strong></td>
+                <td colspan="4"><strong>Schadensausmaß</strong></td>
+              </tr>
+              <tr>
+                <td scope="col">katastrophal</td>
+                <td scope="col">schwerwiegend</td>
+                <td scope="col">mittelmäßig</td>
+                <td scope="col">geringfügig</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">sehr wahrscheinlich</td>
+                <td style="background-color: #e62044;"><strong>hoch</strong></td>
+                <td style="background-color: #e62044; "><strong>hoch</strong></td>
+                <td style="background-color: #e62044; "><strong>hoch</strong></td>
+                <td style="background-color: #e0e016; "><strong>mittel</strong></td>
+              </tr>
+              <tr>
+                <td scope="row">wahrscheinlich</td>
+                <td style="background-color: #e62044;"><strong>hoch</strong></td>
+                <td style="background-color: #e62044;"><strong>hoch</strong></td>
+                <td style="background-color: #e0e016; "><strong>mittel</strong></td>
+                <td style="background-color: #23de23; "><strong>gering</strong></td>
+              </tr>
+              <tr>
+                <td scope="row">unwahrscheinlich</td>
+                <td style="background-color: #e0e016;"><strong>mittel</strong></td>
+                <td style="background-color: #e0e016;"><strong>mittel</strong></td>
+                <td style="background-color: #23de23; "><strong>gering</strong></td>
+                <td >vernachlässigbar</td>
+              </tr>
+              <tr>
+                <td scope="row">entfernt vorstellbar</td>
+                <td style="background-color: #23de23;"><strong>gering</strong></td>
+                <td style="background-color: #23de23;"><strong>gering</strong></td>
+                <td >vernachlässigbar</td>
+                <td >vernachlässigbar</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
 
         <h4>4. Risikobewältigung (Risikosteuerung)</h4>
         <p>
