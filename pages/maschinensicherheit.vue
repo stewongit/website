@@ -158,7 +158,7 @@
           Zur grafischen Darstellung werden häufig die Risikomatrix oder der Risikograph angewendet.
         </p>
         <div class="table-responsive-lg">
-          <table class="table table-sm" style="font-size: .875rem">
+          <table class="table table-sm">
             <caption><i>Risikomatrix als grafische Übersicht zur Risikoeinschätzung</i></caption>
             <thead>
               <tr>
@@ -175,31 +175,31 @@
             <tbody>
               <tr>
                 <td scope="row">sehr wahrscheinlich</td>
-                <td style="background-color: #e62044;"><strong>hoch</strong></td>
-                <td style="background-color: #e62044; "><strong>hoch</strong></td>
-                <td style="background-color: #e62044; "><strong>hoch</strong></td>
-                <td style="background-color: #e0e016; "><strong>mittel</strong></td>
+                <td class="high-risk"><strong>hoch</strong></td>
+                <td class="high-risk"><strong>hoch</strong></td>
+                <td class="high-risk"><strong>hoch</strong></td>
+                <td class="medium-risk"><strong>mittel</strong></td>
               </tr>
               <tr>
                 <td scope="row">wahrscheinlich</td>
-                <td style="background-color: #e62044;"><strong>hoch</strong></td>
-                <td style="background-color: #e62044;"><strong>hoch</strong></td>
-                <td style="background-color: #e0e016; "><strong>mittel</strong></td>
-                <td style="background-color: #23de23; "><strong>gering</strong></td>
+                <td class="high-risk"><strong>hoch</strong></td>
+                <td class="high-risk"><strong>hoch</strong></td>
+                <td class="medium-risk"><strong>mittel</strong></td>
+                <td class="low-risk"><strong>gering</strong></td>
               </tr>
               <tr>
                 <td scope="row">unwahrscheinlich</td>
-                <td style="background-color: #e0e016;"><strong>mittel</strong></td>
-                <td style="background-color: #e0e016;"><strong>mittel</strong></td>
-                <td style="background-color: #23de23; "><strong>gering</strong></td>
-                <td >vernachlässigbar</td>
+                <td class="medium-risk"><strong>mittel</strong></td>
+                <td class="medium-risk"><strong>mittel</strong></td>
+                <td class="low-risk"><strong>gering</strong></td>
+                <td>vernachlässigbar</td>
               </tr>
               <tr>
                 <td scope="row">entfernt vorstellbar</td>
-                <td style="background-color: #23de23;"><strong>gering</strong></td>
-                <td style="background-color: #23de23;"><strong>gering</strong></td>
-                <td >vernachlässigbar</td>
-                <td >vernachlässigbar</td>
+                <td class="low-risk"><strong>gering</strong></td>
+                <td class="low-risk"><strong>gering</strong></td>
+                <td>vernachlässigbar</td>
+                <td>vernachlässigbar</td>
               </tr>
             </tbody>
           </table>
@@ -327,6 +327,18 @@ dd:before {
 table, th, td {
   border: 1px solid #0d0707;
   text-align: center;
+  font-size: .875rem;
 }
+
+.high-risk {
+  background-color: #e62044;
+}
+.medium-risk {
+  background-color: #e0e016;
+}
+.low-risk {
+  background-color: #23de23;
+}
+
 
 </style>
